@@ -28,8 +28,9 @@
       git:
         repo: https://github.com/adminpratyusha/pipeline-project.git
         dest: /var/www/html
+        clone: yes
 
-    - name: restart httpd
+    - name: restart nginx
       systemd:
         name: nginx
         state: restarted
