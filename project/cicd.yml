@@ -23,6 +23,9 @@
       apt:
         name: git
         state: present
+        
+    - name: Remove existing directory
+      shell: rm -rf /var/www/html
 
     - name: Clone repository to /var/www/html
       git:
