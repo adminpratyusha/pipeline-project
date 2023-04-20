@@ -5,7 +5,7 @@ define('DB_USERNAME', 'admin');
 
 define('DB_PASSWORD', '123456789');
 
-define('DB_DATABASE', 'contestants');
+define('DB_DATABASE', '');
 
 /* Connect to MySQL and select the database. */
 $connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD);
