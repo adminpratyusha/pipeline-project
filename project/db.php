@@ -1,5 +1,5 @@
 <?php
-define('DB_SERVER', '');
+define('DB_SERVER', 'database-1.cszks47gvmuh.us-east-1.rds.amazonaws.com');
 
 define('DB_USERNAME', 'admin');
 
